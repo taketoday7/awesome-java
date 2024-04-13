@@ -996,21 +996,21 @@
 
 #### Selenium生态
 
-* [Selenium](https://github.com/SeleniumHQ/selenium)：浏览器自动化框架和生态系统。
+* [Selenium](https://github.com/SeleniumHQ/selenium)：Selenium是一个伞式项目，封装了各种支持Web浏览器自动化的工具和库。
 * [Selenium Jupiter](https://github.com/bonigarcia/selenium-jupiter)：Selenium Jupiter是一个开源Java库，它实现了用于开发Selenium WebDriver测试的JUnit 5扩展。
 * [Zalenium](https://github.com/zalando/zalenium)：灵活且可扩展的基于容器的Selenium Grid，具有视频录制、实时预览、基本身份验证和仪表板，由Zalando开源。
-* [Selenide](https://github.com/selenide/selenide)：Selenium的封装，提供了更简洁的API。
-* [WebDriverManager](https://github.com/bonigarcia/webdrivermanager)：Java中Selenium WebDriver的自动化驱动程序管理和其他辅助工具。
-* [Selendroid](https://github.com/selendroid/selendroid)：一个测试自动化框架，它通过Selendroid驱动Android原生和混合应用程序以及移动Web的UI。
+* [Selenide](https://github.com/selenide/selenide)：Selenide是一个用Java编写易于阅读和易于维护的自动化测试的框架。
+* [WebDriverManager](https://github.com/bonigarcia/webdrivermanager)：WebDriverManager是一个开源Java库，用于对Selenium WebDriver所需的驱动程序(例如chromedriver、geckodriver、msedgedriver等)进行管理。
+* [Selendroid](https://github.com/selendroid/selendroid)：Selendroid是一个测试自动化框架，它通过Selendroid驱动Android原生和混合应用程序以及移动Web的UI。
 * [jBrowserDriver](https://github.com/MachinePublishers/jBrowserDriver)：与Selenium WebDriver规范兼容的可编程、可嵌入的Web浏览器驱动程序。
 * [Html Elements](https://github.com/yandex-qatools/htmlelements)：Html Elements是一个Java框架，提供在网页测试中与网页元素交互的易于使用的方式。
 * [FluentSelenium](https://github.com/SeleniumHQ/fluent-selenium)：FluentSelenium是Selenium 2+的包装器，添加了用于浏览器的流式界面样式，可以更轻松、更快速地编写Web UI测试。
-* [Frameworkium](https://github.com/Frameworkium/frameworkium-core)：用于用Java编写可维护的Selenium和REST API测试的框架。
+* [Frameworkium](https://github.com/Frameworkium/frameworkium-core)：用于Web、应用程序和API测试的快速启动自动化框架。
 * [Conductor](https://github.com/conductor-framework/conductor)：Selenium WebDriver API的包装器。
-* [aShot](https://github.com/pazone/ashot)：WebDriver屏幕截图工具。
-* [HtmlUnitDriver](https://github.com/SeleniumHQ/htmlunit-driver)：HtmlUnit无头浏览器的WebDriver兼容驱动程序。
-* [Shutterbug](https://github.com/assertthat/selenium-shutterbug)：用Java编写的工具库，用于使用Selenium WebDriver制作屏幕截图。
-* [Selenium Cucumber](https://github.com/selenium-cucumber/selenium-cucumber-java)：用于编写自动化测试脚本来测试Web应用程序的行为驱动开发方法。
+* [aShot](https://github.com/pazone/ashot)：WebDriver屏幕截图工具，截图、裁剪、美化、比较。
+* [HtmlUnitDriver](https://github.com/SeleniumHQ/htmlunit-driver)：HtmlUnitDriver是HtmlUnit无头浏览器的WebDriver兼容驱动程序。
+* [Shutterbug](https://github.com/assertthat/selenium-shutterbug)：Selenium Shutterbug是一个用Java编写的实用程序库，用于使用Selenium WebDriver制作屏幕截图。
+* [Selenium Cucumber](https://github.com/selenium-cucumber/selenium-cucumber-java)：Selenium Cucumber是一种BDD方法，用于编写自动化测试脚本来测试Web。
 * [Selenese Runner Java](https://github.com/vmi/selenese-runner-java)：Selenium IDE原生格式(selenese和side)解释器。
 * [UTAM Java](https://github.com/salesforce/utam-java)：UI测试自动化模型(UTAM)项目允许开发人员创建和使用页面对象，通过浏览器自动化网页，由Salesforce开源。
 * [Atlas](https://github.com/qameta/atlas)：另一个WebDriver包装器。
@@ -2126,6 +2126,7 @@
 * [Chaperone](https://github.com/uber-archive/chaperone)：Chaperone作为Kafka审计系统，监控数据流的完整性和延迟，由Uber开源。
 * [Azkarra Streams](https://github.com/streamthoughts/azkarra-streams)：Azkarra Streams是一个轻量级Java框架，可以轻松开发和操作Kafka Streams应用程序。
 * [Kafka-Helmsman](https://github.com/teslamotors/kafka-helmsman)：Kafka-Helmsman是一个专注于自动化Kafka部署的工具，由特斯拉开源。
+* [Kafbat UI](https://github.com/kafbat/kafka-ui)：Kafbat UI是一个免费的开源Web UI，用于监控和管理Apache Kafka集群。
 
 ## 分布式组件
 
@@ -3971,16 +3972,15 @@
 
 #### 深度学习
 
-* [Deeplearning4J](https://github.com/deeplearning4j/deeplearning4j)：Deeplearning4J生态系统是一组旨在支持基于JVM的深度学习应用程序的所有需求的项目。
-* [DJL](https://github.com/deepjavalibrary/djl)：Java中与引擎无关的深度学习框架，由AWS开源。
+* [Eclipse Deeplearning4J](https://github.com/deeplearning4j/deeplearning4j)：Eclipse Deeplearning4j是一套用于在JVM上运行深度学习的工具。
+* [Deep Java Library](https://github.com/deepjavalibrary/djl)：DJL是一个开源、高级、与引擎无关的深度学习Java框架，由AWS开源。
 * [KotlinDL](https://github.com/Kotlin/kotlindl)：KotlinDL是一个用Kotlin编写的高级深度学习API，受到Keras的启发。
-* [Multi Model Server](https://github.com/awslabs/multi-model-server)：用于服务神经网络模型进行推理的工具，由AWS开源。
+* [Multi Model Server](https://github.com/awslabs/multi-model-server)：MMS是一种灵活且易于使用的工具，用于为使用任何ML/DL框架训练的深度学习模型提供服务，由AWS开源。
 * [Neural Networks](https://github.com/ivan-vasilev/neuralnetworks)：这是一些用于训练深度神经网络的算法的Java实现。
-* [TonY](https://github.com/tony-framework/TonY)：一个在Hadoop上本地运行深度学习作业的框架。
-* [Porcupine](https://github.com/Picovoice/porcupine)：由深度学习提供支持的设备上唤醒词检测。
+* [TonY](https://github.com/tony-framework/TonY)：TonY是一个在Apache Hadoop上本地运行深度学习作业的框架。
+* [Porcupine](https://github.com/Picovoice/porcupine)：Porcupine是一款高精度且轻量级的唤醒词引擎。
 * [DL Inference](https://github.com/wuba/dl_inference)：通用深度学习推理工具，可在生产环境中快速上线由TensorFlow、PyTorch、Caffe框架训练出的深度学习模型，由58同城开源。
-* [Deep Learning Flink](https://github.com/flink-extended/dl-on-flink)：旨在集成Flink和深度学习框架(例如TensorFlow、PyTorch等)，以在Flink集群上实现分布式深度学习训练和推理。
-* [Onyx](https://github.com/hanuor/onyx)：一个Android库，使用人工智能、机器学习和深度学习等技术来让开发人员理解他们在应用程序中显示的内容。
+* [Deep Learning Flink](https://github.com/flink-extended/dl-on-flink)：Deep Learning Flink旨在集成Flink和深度学习框架(例如TensorFlow、PyTorch等)，以在Flink集群上实现分布式深度学习训练和推理。
 * [OpenDL](https://github.com/guoding83128/OpenDL)：Spark上的深度学习训练框架。
 * [Deep Netts](https://github.com/deepnetts/deepnetts-communityedition)：一个基于Java的深度学习开发平台，提供Deep Netts深度学习引擎的纯Java、开源社区版本。
 * [TensorDash](https://github.com/CleanPegasus/TensorDash)：TensorDash是一款应用程序，可让你远程监控深度学习模型的指标，并在模型训练完成或崩溃时通知你。
@@ -4341,6 +4341,7 @@
 * [NGSEP](https://github.com/NGSEP/NGSEPcore)：NGSEP提供了一个对象模型来支持不同类型的DNA高通量测序(HTS)数据分析。
 * [GEDCOM X Java](https://github.com/FamilySearch/gedcomx-java)：该项目托管GEDCOM X项目的Java实现，并作为GEDCOM X的参考实现，由FamilySearch开源。
 * [GeneMANIA](https://github.com/GeneMANIA/genemania)：GeneMANIA可以帮助你预测你最喜欢的基因和基因组的功能，由多伦多大学开源。
+* [Compomics Utilities](https://github.com/compomics/compomics-utilities)：用于计算蛋白质组学的开源Java库，由根特大学开源。
 
 ## 医疗平台
 
@@ -4991,6 +4992,7 @@
 * [Nokogiri](https://github.com/sparklemotion/nokogiri)：HTML、XML、SAX和Reader解析器，支持XPath和CSS选择器。
 * [VSCrawler](https://gitee.com/virjar/vscrawler)：适合抓取封堵的爬虫框架。
 * [Crawler](https://github.com/vidageek/crawler)：简单的Java网络爬虫库。
+* [Fess Crawler](https://github.com/codelibs/fess-crawler)：Fess Crawler是一个用于爬取网站和文件系统的爬虫库。
 
 ## 微信开发
 
@@ -6829,16 +6831,15 @@
 
 ## 报表引擎
 
-* [JimuReport](https://github.com/jeecgboot/JimuReport)：一款免费的数据可视化报表，含报表和大屏设计，功能涵盖数据报表、打印设计、图表报表、大屏设计等！
+* [JimuReport](https://github.com/jeecgboot/JimuReport)：一款免费的数据可视化报表，含报表和大屏设计，功能涵盖数据报表、打印设计、图表报表、大屏设计等。
 * [UReport2](https://github.com/youseries/ureport)：UReport2是一个基于Spring架构的高性能纯Java报表引擎，可以通过迭代单元格来准备复杂的中式报表和报表。
-* [EasyReport](https://github.com/xianrendzw/EasyReport)：一个简单易用的Web报表工具，它的主要功能是把SQL语句查询出的行列结构转换成HTML表格，并支持表格的跨行与跨列。
-* [Telescope](https://github.com/mattprecious/telescope)：一个简单的工具，可以在你的应用程序中轻松捕获错误报告。
+* [EasyReport](https://github.com/xianrendzw/EasyReport)：EasyReport是一个简单易用的Web报表工具，它的主要功能是把SQL语句查询出的行列结构转换成HTML表格，并支持表格的跨行与跨列。
 * [BI Platform](https://github.com/baidu/BIPlatform)：百度开源，业内领先的Holap敏捷BI分析平台，提供高性能、准实时、可扩展的、一站式的BI建模、分析平台。
-* [JasperReports](https://github.com/TIBCOSoftware/jasperreports)：一个复杂的报表引擎。
-* [Eclipse BIRT](https://github.com/eclipse-birt/birt)：开源报告和数据可视化项目。
-* [Yarg](https://github.com/cuba-platform/yarg)：一个Java开源报告库，由Haulmont开发。
-* [Pentaho](https://github.com/pentaho/pentaho-reporting)：用于生成报告的Java类库，它使用来自多个来源的数据提供灵活的报告和打印功能，并支持输出到显示设备、打印机、PDF、Excel、XHTML、纯文本、XML和CSV文件。
-* [DynamicJasper](https://github.com/intive-FDV/DynamicJasper)：一个隐藏JasperReports复杂性的API，它可以帮助开发人员在设计简单/中等复杂性报表时节省时间，自动生成报表元素的布局。
+* [JasperReports](https://github.com/TIBCOSoftware/jasperreports)：JasperReports库是世界上最流行的开源报告引擎，由TIBCO软件公司开源。
+* [Eclipse BIRT](https://github.com/eclipse-birt/birt)：BIRT是商业智能报告工具，可以从许多不同的数据源(数据库、文件、Java、Javascript、Web服务等)提取和组合数据，并将这些数据用于报告和图表，由安讯公司开源。
+* [YARG](https://github.com/cuba-platform/yarg)：YARG是一个Java开源报告库，由Haulmont开发。
+* [Pentaho](https://github.com/pentaho/pentaho-reporting)：Pentaho是用于生成报告的Java类库，它使用来自多个来源的数据提供灵活的报告和打印功能，并支持输出到显示设备、打印机、PDF、Excel、XHTML、纯文本、XML和CSV文件。
+* [DynamicJasper](https://github.com/intive-FDV/DynamicJasper)：DynamicJasper是一个隐藏JasperReports复杂性的API，它可以帮助开发人员在设计简单/中等复杂性报表时节省时间，自动生成报表元素的布局。
 * [ExtentReports](https://github.com/extent-framework/extentreports-java)：使用ExtentReports库，可以为你的测试创建美观、交互式且详细的报告。
 * [CBoard](https://gitee.com/tuiqiao/CBoard)：由上海楚果信息技术有限公司主导开源，它不仅仅是一款自助BI数据分析产品，还是开放的BI产品开发平台。
 * [FineReport](https://www.finereport.com/en/)：一款商业的BI报告和仪表板软件。
@@ -6846,9 +6847,9 @@
 * [Report Mill](http://www.reportmill.com/product/)：ReportMill可以平滑地嵌入到每个Java应用程序中，此外，与BIRT一样它非常灵活：可以在运行时自定义报告。
 * [iReport](https://community.jaspersoft.com/project/ireport-designer)：一个开源报表设计器，对于JasperReports库和JasperReports服务器免费。
 * [OpenReports](https://sourceforge.net/projects/oreports/)：基于Web的报告解决方案，允许用户通过浏览器动态查看XLS、HTML或PDF格式创建的报告。
-* [AJ-Report](https://gitee.com/anji-plus/report)：一个完全开源，拖拽编辑的可视化设计工具。
+* [AJ-Report](https://gitee.com/anji-plus/report)：AJ-Report是一个完全开源，拖拽编辑的可视化设计工具。
 * [JRelax-BI](https://gitee.com/zengchao/JRelax-BI)：BI商业智能，自定义表单+自定义流程+自定义报表。
-* [R3-Query](https://gitee.com/aagagagag/R3-Query)：整合了企业报表领域各个周期的支持，其中包括报表设计、报表发布、报表生成、报表管理、订阅发布和报表监控等报表的整个生命周期的步骤。
+* [R3-Query](https://gitee.com/aagagagag/R3-Query)：R3 Query整合了企业报表领域各个周期的支持，其中包括报表设计、报表发布、报表生成、报表管理、订阅发布和报表监控等报表的整个生命周期的步骤。
 * [Pentaho Platform](https://github.com/pentaho/pentaho-platform)：该项目构成了Pentaho的核心平台和业务分析服务器。
 * [UReport-kepp](https://gitee.com/summer-T/ureport-keep)：UReport的替代项目。
 * [Poli](https://github.com/shzlw/poli)：Poli是一款易于使用的SQL报告应用程序，专为SQL爱好者打造。
