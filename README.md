@@ -2637,9 +2637,9 @@
 
 ## WebSocket
 
-* [Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket)：用纯Java编写的准系统WebSocket客户端和服务器实现。
+* [Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket)：该项目包含用纯Java编写的准系统WebSocket客户端和服务器实现。
 * [Scarlet](https://github.com/Tinder/Scarlet)：受Retrofit启发的适用于Kotlin、Java和Android的WebSocket客户端。
-* [AndroidAsync](https://github.com/koush/AndroidAsync)：适用于Android的异步套接字、HTTP(s)和WebSocket库。基于NIO，而不是线程。
+* [AndroidAsync](https://github.com/koush/AndroidAsync)：适用于Android的异步套接字、HTTP(s)和WebSocket库，基于NIO而不是线程。
 * [Async Http Client](https://github.com/AsyncHttpClient/async-http-client)：适用于Java的异步HTTP和WebSocket客户端库。
 * [NV Websocket Client](https://github.com/TakahikoKawasaki/nv-websocket-client)：Java中的高质量WebSocket客户端实现。
 * [WebSocket Android](https://github.com/codebutler/android-websockets)：一个非常简单的Android WebSocket客户端。
@@ -2662,20 +2662,20 @@
 ## 游戏服务器
 
 * [NettyGameServer](https://github.com/jwpttcg66/NettyGameServer)：使用Netty 4.X实现的手机游戏分布式服务器，支持TCP、UDP、HTTP、WebSocket链接。
-* [Jetserver](https://github.com/menacher/java-game-server)：一个基于高速NIO套接字的多人Java游戏服务器，使用Netty和Jetlang编写。
+* [JetServer](https://github.com/menacher/java-game-server)：JetServer是一个基于高速NIO套接字的多人Java游戏服务器，使用Netty和Jetlang编写。
 * [Game Server](https://github.com/jzyong/game-server)：分布式Java游戏服务器，包括集群管理服务器、网关服务器、大厅服务器、游戏逻辑服务器。
-* [Summer](https://github.com/SwingFrog/Summer)：轻量级、一站式的Java游戏服务器框架，也可用于开发简单的Web服务。
-* [Mmorpg](https://github.com/kingston-csj/mmorpg)：用Java编写的分布式高性能mmorpg手游服务端框架。
+* [Summer](https://github.com/SwingFrog/Summer)：Summer是一个轻量级、一站式的Java游戏服务器框架，也可用于开发简单的Web服务。
+* [Mmorpg](https://github.com/kingston-csj/mmorpg)：Mmorpg是一个用Java编写的分布式高性能mmorpg手游服务端框架。
 * [GameServer4j](https://github.com/jzyong/GameServer4j)：分布式Java游戏服务器，包括登录、网关、游戏演示。
 * [ZFoo](https://github.com/zfoo-project/zfoo)：极快的企业服务器框架，可用于RPC、游戏服务器、Web服务器。
-* [ioGame](https://gitee.com/game-town/ioGame)：无锁异步化、事件驱动架构设计的Java Netty网络游戏服务器框架。
+* [IoGame](https://gitee.com/game-town/ioGame)：IoGame是一个轻量级的网络编程框架，适用于网络游戏服务器、物联网、内部系统及各种需要长连接的场景。
 * [Socket.IO](https://github.com/scalecube/socketio)：基于Netty的Socket.IO Java服务器，为了满足游戏性能要求而创建的。
-* [Apollo](https://github.com/apollo-rsps/apollo)：一个开源Java游戏服务器套件，旨在轻量、快速且安全。
-* [Noark](https://gitee.com/xiaoe/noark3)：由Java实现的游戏服务器端框架，可快速开发出易维护、高性能、高扩展能力的游戏服务器。
-* [Carmelo](https://github.com/needmorecode/carmelo)：一个快速、可扩展的Java服务器框架，专为在线游戏而设计。
-* [Okra](https://github.com/ogcs/Okra)：基于Netty和Disruptor的高性能游戏服务器框架。
+* [Apollo](https://github.com/apollo-rsps/apollo)：Apollo是一个高性能、模块化的RuneScape模拟器，具有一系列用于管理数据文件和插件的实用程序。
+* [Noark](https://gitee.com/xiaoe/noark3)：Noark是一个游戏服务器端框架，可快速开发出一个易维护、易扩展且稳定高能的游戏服务器。
+* [Carmelo](https://github.com/needmorecode/carmelo)：Carmelo是一个快速、可扩展的Java服务器框架，专为在线游戏而设计。
+* [Okra](https://github.com/ogcs/Okra)：Okra是一个简单的使用Java开发的高性能、高扩展、高并发、低延迟的服务器框架。
 * [Gamioo](https://github.com/jiangguilong2000/gamioo)：游戏服务器框架，基于此框架，可以快速实现一个高可用、易维护、稳定、高性能的游戏服务器。
-* [TenIO](https://github.com/congcoi123/tenio)：用于创建多人在线游戏的开源项目。
+* [TenIO](https://github.com/congcoi123/tenio)：TenIO是一个用于创建多人在线游戏的开源项目，其中包括专门为多人游戏设计的基于Java NIO的服务器。
 * [Avalon](https://gitee.com/codeborker/Avalon)：基于Akka的高性能可伸缩的Java网络游戏服务器，简单的单服务器开发与集群开发的切换。
 
 ## 即时通讯
@@ -4490,27 +4490,27 @@
 
 #### OAuth库
 
+* [Keycloak](https://github.com/keycloak/keycloak)：适用于现代应用程序和服务的开源身份和访问管理解决方案，由RedHat基金会开源。
 * [SuperTokens](https://github.com/supertokens/supertokens-core)：Auth0/Firebase Auth/AWS Cognito的开源替代品。
 * [ScribeJava](https://github.com/scribejava/scribejava)：适用于Java的简单OAuth库。
-* [Spring Authorization Server](https://github.com/spring-projects/spring-authorization-server)：Spring生态中提供的OAuth 2.1授权服务器支持。
+* [Spring Authorization Server](https://github.com/spring-projects/spring-authorization-server)：Spring Authorization Server是一个框架，提供OAuth 2.1和OpenID Connect 1.0规范以及其他相关规范的实现。
 * [Pac4j](https://github.com/pac4j/pac4j)：Pac4j是一个简单而强大的Java安全框架，支持OAuth、CAS、SAML、OIDC、LDAP、JWT。
-* [UAA](https://github.com/cloudfoundry/uaa)：CloudFoundry用户帐户和身份验证服务器。
-* [MaxKey](https://github.com/dromara/MaxKey)：业界领先的IAM-IDaas身份管理和认证产品，支持OAuth 2.x、OIDC、SAML 2.0、JWT、CAS、SCIM等SSO标准协议，由dromara社区开源。
+* [UAA](https://github.com/cloudfoundry/uaa)：UAA是一种多租户身份管理服务，在Cloud Foundry中使用，但也可用作独立的OAuth2服务器。
+* [MaxKey](https://gitee.com/dromara/MaxKey)：MaxKey是业界领先的IAM-IDaas身份管理和认证产品，支持OAuth 2.x/OpenID Connect、SAML 2.0、JWT、CAS、SCIM等标准协议，由dromara社区开源。
 * [Play Authenticate](https://github.com/joscha/play-authenticate)：Play框架2.x的身份验证插件。
 * [OAuth-Apis](https://github.com/OAuth-Apis/apis)：该项目提供了一个OAuth 2.0授权服务器，可用于配置API身份验证，目前不再维护。
 * [Google OAuth Client](https://github.com/googleapis/google-oauth-java-client)：由Google编写的一个功能强大且易于使用的Java库，适用于OAuth 1.0和OAuth 2.0授权标准。
-* [OxAuth](https://github.com/GluuFederation/oxAuth)：OAuth 2.0服务器和客户端；OIDC提供商和UMA授权服务器。
+* [OxAuth](https://github.com/GluuFederation/oxAuth)：OxAuth是一个开源OpenID Connect提供商(OP)和UMA授权服务器(AS)。
 * [Java Authorization Server](https://github.com/authlete/java-oauth-server)：这是Java中的授权服务器实现，支持OAuth 2.0和OpenID Connect。
 * [JOAuth](https://github.com/twitter/joauth)：使用OAuth验证HTTP请求的Java库，由Twitter开源。
 * [MITREid-Connect](https://github.com/mitreid-connect/OpenID-Connect-Java-Spring-Server)：该服务器可用作OpenID Connect身份提供商以及通用OAuth 2.0授权服务器。
 * [OAuth2-Essentials](https://github.com/dmfs/oauth2-essentials)：基于Http-Client-Essentials的OAuth2客户端实现。
-* [Tokens](https://github.com/zalando/tokens)：用于验证和存储OAuth 2.0服务访问令牌的Java库，它具有弹性、可配置且经过生产测试，并且适用于所有JVM语言，由Zalando开源。
-* [Keycloak](https://github.com/keycloak/keycloak)：适用于现代应用程序和服务的开源身份和访问管理解决方案，由RedHat基金会开源。
-* [Smart-SSO](https://github.com/a466350665/smart-sso)：Spring Boot SSO单点登录，OAuth2实现，支持App登录、分布式。
+* [Tokens](https://github.com/zalando/tokens)：Tokens是一个用于验证和存储OAuth 2.0服务访问令牌的Java库，它具有弹性、可配置且经过生产测试，并且适用于所有JVM语言，由Zalando开源。
+* [Smart-SSO](https://github.com/a466350665/smart-sso)：Spring Boot SSO单点登录，OAuth2实现，支持APP登录、分布式。
 * [JustAuthPlus](https://gitee.com/fujieid/jap)：JAP是一款开源的登录认证中间件，基于模块化设计，为所有需要登录认证的Web应用提供一套标准的技术解决方案。
 * [AppAuth](https://github.com/openid/AppAuth-Android)：用于与OAuth 2.0和OIDC提供商进行通信的Android客户端SDK。
-* [Signpost](https://github.com/mttkay/signpost)：适用于Java的轻量级客户端OAuth库。
-* [Light-OAuth2](https://github.com/networknt/light-oauth2)：个快速、轻量级、云原生的OAuth 2.0服务器，构建在Light-4j框架之上。
+* [Signpost](https://github.com/mttkay/signpost)：Signpost是一种简单直观的解决方案，用于在Java平台上签署符合OAuth Core 1.0a标准的HTTP消息。
+* [Light-OAuth2](https://github.com/networknt/light-oauth2)：一个快速、轻量级、云原生的OAuth 2.0服务器，构建在Light-4j框架之上。
 * [CredentialManager](https://github.com/PhilippHeuer/credential-manager)：一个简单的OAuth客户端和CredentialManager库，支持多个存储后端。
 * [Apache Oltu](https://github.com/apache/oltu)：Apache Oltu是OAuth协议的Java语言实现。
 * [TOPIAM](https://gitee.com/topiam/eiam)：基于Spring Boot 3开源的IDaas/IAM平台，用于管理企业内员工账号、权限、身份认证、应用访问。
@@ -7342,16 +7342,16 @@
 
 ## 词法解析
 
-* [ANTLR](https://github.com/antlr/antlr4)：一个强大的解析器生成器，用于读取、处理、执行或翻译结构化文本或二进制文件。
-* [JavaParser](https://github.com/javaparser/javaparser)：该项目包含一组实现具有高级分析功能的Java 1.0-Java 17解析器的库。
-* [Flexmark Java](https://github.com/vsch/flexmark-java)：CommonMark(规范0.28)解析器的Java实现，使用块优先、内联后Markdown解析架构。
-* [kotlinx.ast](https://github.com/kotlinx/ast)：一个通用的AST解析库，Kotlin是目前唯一支持的语言。
+* [ANTLR](https://github.com/antlr/antlr4)：ANTLR是一个强大的解析器生成器，用于读取、处理、执行或翻译结构化文本或二进制文件。
+* [JavaParser](https://github.com/javaparser/javaparser)：该项目包含一组实现具有高级分析功能的Java 1.0 - Java 17解析器的库。
+* [Flexmark Java](https://github.com/vsch/flexmark-java)：Flexmark Java是CommonMark(规范0.28)解析器的Java实现，使用块优先、内联后Markdown解析架构。
+* [Kotlinx.AST](https://github.com/kotlinx/ast)：Kotlinx.AST是一个通用的AST解析库，Kotlin是目前唯一支持的语言。
 * [Gumtree Spoon AST Diff](https://github.com/SpoonLabs/gumtree-spoon-ast-diff)：使用Gumtree算法计算两个Spoon抽象语法树之间的AST差异。
-* [JSqlParser](https://github.com/JSQLParser/JSqlParser)：JSqlParser解析SQL语句并将其转换为Java类的层次结构，可以使用访问者模式来导航生成的层次结构。
-* [JavaCC](https://github.com/javacc/javacc)：用于Java应用程序的最流行的解析器生成器。
-* [JFlex](https://github.com/jflex-de/jflex)：JFlex是Java的词法分析器生成器。
-* [RSQL Parser](https://github.com/jirutka/rsql-parser)：用于对RESTful API中的条目进行参数化过滤的查询语言。
-* [Parboiled](https://github.com/sirthias/parboiled)：Java和Scala中的优雅解析-轻量级、易于使用、功能强大。
+* [JSqlParser](https://github.com/JSQLParser/JSqlParser)：JSqlParser是一个与RDBMS无关的SQL语句解析器，它将SQL语句转换为可遍历的Java类层次结构。
+* [JavaCC](https://github.com/javacc/javacc)：JavaCC是用于Java应用程序的最流行的解析器生成器。
+* [JFlex](https://github.com/jflex-de/jflex)：JFlex是Java的词法分析器生成器(也称为扫描器生成器)。
+* [RSQL Parser](https://github.com/jirutka/rsql-parser)：RSQL是一种用于对RESTful API中的条目进行参数化过滤的查询语言。
+* [Parboiled](https://github.com/sirthias/parboiled)：Parboiled是一个混合Java/Scala库，提供基于解析表达式语法(PEG)的轻量级且易于使用但功能强大且优雅的任意输入文本解析。
 * [Parrot](https://github.com/daniellansun/groovy-parser)：Parrot可以解析Groovy源代码并构造相关的AST，与旧解析器生成的AST几乎相同。
 * [Java Tree Sitter](https://github.com/serenadeai/java-tree-sitter)：Tree-Sitter是一个解析器生成工具和增量解析库。
 
