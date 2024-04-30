@@ -1247,6 +1247,7 @@
 * [Huawei Bisheng](https://www.openeuler.org/zh/other/projects/bishengjdk/)：华为开源的JDK版本，代号毕昇。
 * [Loongson JDK](https://github.com/loongson/jdk)：龙芯中科基于OpenJDK研制并发布的龙芯平台Java环境。
 * [RunSoon OpenJDK](https://www.digitalchina.com/product/details10.html)：神州数码提供的基于OpenJDK的企业级JVM版本。
+* [泰山JDK](https://github.com/tsitcn/ts-jdk8)：泰山Office软件使用的JDK版本。
 
 ## JVM语言
 
@@ -4592,6 +4593,7 @@
 * [SMCryptoj](https://github.com/zhuobie/smcryptoj)：SM国密算法的Java绑定。
 * [Hash4j](https://github.com/dynatrace-oss/hash4j)：Hash4j是Dynatrace的一个Java库，其中包括基于高质量哈希函数的各种非加密哈希算法和数据结构。
 * [Homomorphic Encryption](https://github.com/adwise-fiu/Homomorphic_Encryption)：包含ElGamal、Paillier、Goldweiser-Micali和DGK同态加密系统的软件包，由佛罗里达国际大学开源。
+* [GmSSL-Java](https://github.com/GmSSL/GmSSL-Java)：本项目是GmSSL密码库的Java语言封装，可以用于Java环境和Android系统上的应用开发。
 
 #### 电子签名
 
@@ -5093,18 +5095,18 @@
 
 ## 接口文档
 
-* [Swagger Core](https://github.com/swagger-api/swagger-core)：OpenAPI规范的Java实现。
-* [Knife4j](https://gitee.com/xiaoym/knife4j)：集Swagger 2和OpenAPI 3为一体的增强解决方案。
+* [Swagger Core](https://github.com/swagger-api/swagger-core)：Swagger Core是OpenAPI规范的Java实现。
+* [Knife4j](https://gitee.com/xiaoym/knife4j)：Knife4j是一个集Swagger 2和 OpenAPI 3为一体的增强解决方案。
 * [Springfox](https://github.com/springfox/springfox)：使用Spring构建的API的自动化JSON API文档。
-* [Swagger Parser](https://github.com/swagger-api/swagger-parser)：Swagger工具之一，可以帮助解析OpenAPI文档并提取其各个组件。
-* [SpringDoc OpenAPI](https://github.com/springdoc/springdoc-openapi)：用于Spring Boot项目的OpenAPI 3实现。
-* [OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator)：允许在给定OpenAPI 规范的情况下自动生成API客户端库(SDK生成)、服务器存根、文档和配置。
-* [Spring Boot Starter Swagger](https://github.com/SpringForAll/spring-boot-starter-swagger)：个人开发的Spring Boot Swagger Starter。
+* [Swagger Parser](https://github.com/swagger-api/swagger-parser)：这是Swagger解析器项目，它将JSON或YAML格式的OpenAPI定义解析为Java POJO的swagger-core表示形式，返回任何验证警告/错误。
+* [SpringDoc OpenAPI](https://github.com/springdoc/springdoc-openapi)：SpringDoc OpenAPI库有助于使用Spring Boot项目自动生成API文档。
+* [OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator)：OpenAPI Generator允许在给定OpenAPI规范的情况下自动生成API客户端库(SDK生成)、服务器存根、文档和配置。
+* [Spring Boot Starter Swagger](https://github.com/SpringForAll/spring-boot-starter-swagger)：该项目主要利用Spring Boot的自动配置特性来实现快速的将Swagger 2引入Spring Boot应用来生成API文档，简化原生使用Swagger 2的整合代码。
 * [Swagger2Word](https://github.com/JMCuixy/swagger2word)：一个Swagger API文档转Word文档的工具项目。
 * [Spring REST Docs](https://github.com/spring-projects/spring-restdocs)：该项目的主要目标是通过将使用Asciidoctor手写的内容与使用Spring MVC测试框架生成的自动生成的示例相结合，轻松记录RESTful服务。
 * [Spring Auto REST Docs](https://github.com/ScaCap/spring-auto-restdocs)：Spring REST Docs的扩展。
 * [OpenAPI-diff](https://github.com/OpenAPITools/openapi-diff)：用于比较两个OpenAPI规范的实用程序。
-* [SwaggerSocket](https://github.com/swagger-api/swagger-socket)：基于WebSocket的REST。
+* [SwaggerSocket](https://github.com/swagger-api/swagger-socket)：SwaggerSocket协议允许在WebSocket协议之上执行任何现有的REST资源。
 * [Swagger-Play](https://github.com/swagger-api/swagger-play)：这是一个在Play框架控制器中支持Swagger注解的模块。
 * [Swagger Validator Badge](https://github.com/swagger-api/validator-badge)：该项目在网站上显示“valid swagger”徽章，支持Swagger/OpenAPI 2.0和OpenAPI 3.x规范。
 * [OpenAPI Style Validator](https://github.com/OpenAPITools/openapi-style-validator)：可定制的样式验证器，可确保你的OpenAPI规范遵循你组织的标准。
@@ -5954,6 +5956,7 @@
 * [ThinkFree Office](https://thinkfree.com/)：ThinkFree Office是一款廉价却高效的Microsoft Office替代品。
 * [OpenOffice](https://www.openoffice.org/)：OpenOffice是一个开源的办公包软件。
 * [永中Office](https://www.yozosoft.com/index.html)：永中Office是由永中科技公司用Java语言开发的一个可以在Windows、Linux等多个不同操作系统上运行的办公软件，与微软Microsoft Office相似。
+* [泰山Office](http://web.ts-it.cn/index.html)：泰山Office采用Java开发，深度优化JVM，全面兼容国产CPU(龙芯、飞腾、鲲鹏、兆芯、申威)、国产操作系统(UOS、中标麒麟、银河麒麟、深度等)，是一款完全自主可控、安全可靠的国产基础办公软件。
 * [Proxyee Down](https://github.com/proxyee-down-org/proxyee-down)：Proxyee Down是一款开源的免费HTTP高速下载器，底层使用Netty开发，支持自定义HTTP请求下载且支持扩展功能，可以通过安装扩展实现特殊的下载需求。
 * [Cyberduck](https://github.com/iterate-ch/cyberduck)：Cyberduck是一款适用于Mac和Windows的自由FTP、SFTP、WebDAV、Amazon S3、Backblaze B2、Microsoft Azure和OneDrive以及OpenStack Swift文件传输客户端。
 * [Teambition](https://www.teambition.com/)：阿里旗下数字化协作平台，提供项目管理、任务协同等解决方案。
@@ -7112,7 +7115,7 @@
 * [nio_uring](https://github.com/bbeaupain/nio_uring)：在底层使用io_uring的Java高性能I/O库。
 * [MimeCraft](https://github.com/square/mimecraft)：用于创建符合RFC要求的Multipart和表单编码HTTP请求主体的实用程序。
 * [Ballerina MIME](https://github.com/ballerina-platform/module-ballerina-mime)：该库提供了一组用于处理消息的API，这些API遵循RFC 2045标准中指定的多用途Internet邮件扩展规范。
-* [Apache MIME4J](https://github.com/apache/james-mime4j)：可用于解析纯rfc822和MIME格式的电子邮件消息流，并构建电子邮件消息的树表示形式。
+* [Apache MIME4J](https://github.com/apache/james-mime4j)：Mime4j可用于解析纯rfc822和MIME格式的电子邮件消息流，并构建电子邮件消息的树表示形式。
 * [MIME Type](https://github.com/overview/mime-types)：用于检测文件MIME类型的Java库。
 * [Modbus](https://github.com/digitalpetri/modbus)：适用于Java的高性能、非阻塞、零缓冲区复制Modbus。
 * [Chronicle Bytes](https://github.com/OpenHFT/Chronicle-Bytes)：Chronicle Bytes的用途与Java的NIO ByteBuffer类似，但具有一些附加功能。
@@ -7204,7 +7207,7 @@
 * [Apache ACE](https://ace.apache.org/)：一个软件分发框架，允许你集中管理软件组件、配置数据和其他工件并将其分发到目标系统。它是使用OSGi构建的，可以部署在不同的拓扑中。
 * [Apache Aries](https://github.com/apache/aries)：Aries项目由一组可插拔Java组件组成，支持企业OSGi应用程序编程模型。
 * [Eclipse Kura](https://github.com/eclipse/kura)：基于OSGi的M2M服务网关应用程序框架。
-* [Apache Felix](https://felix.apache.org/documentation/index.html)：OSGi框架实现及相关技术。
+* [Apache Felix](https://github.com/apache/felix-dev)：OSGi框架实现及相关技术。
 * [Eclipse Equinox](https://eclipse.dev/equinox/)：OSGi核心框架规范的实现，这是一组实现各种可选OSGi服务和其他用于运行基于OSGi的系统的基础设施的捆绑包。
 * [Eclipse Virgo](https://projects.eclipse.org/projects/rt.virgo)：基于OSGI的服务器，旨在运行企业Java应用程序和Spring支持的应用程序。
 * [OSGi Testing](https://github.com/osgi/osgi-test)：该项目提供了一组捆绑包，其中包含用于测试OSGi API的有用类。
@@ -7380,7 +7383,7 @@
 * [AWS CloudFormation Template](https://github.com/widdix/aws-cf-templates)：AWS CloudFormation的免费模板。
 * [React Native Template TypeScript](https://github.com/react-native-community/react-native-template-typescript)：干净且简约的React Native模板，可快速开始使用TypeScript。
 * [Selenium Maven Template](https://github.com/Ardesco/Selenium-Maven-Template)：快速搭建Selenium项目的Maven模板。
-* [Spring Boot Template](https://github.com/hmcts/spring-boot-template)：该模板的目的是加快新Spring应用程序的创建速度，并帮助在多个团队之间保持相同的标准。
+* [Spring Boot Template](https://github.com/hmcts/spring-boot-template)：该模板的目的是加快新Spring应用程序的创建速度，并帮助在多个团队之间保持相同的标准，由英国法院及审裁处事务局开源。
 * [AEM Project Archetype](https://github.com/adobe/aem-project-archetype)：Maven模板，创建一个最小的、基于最佳实践的Adobe Experience Manager(AEM)项目作为你网站的起点。
 * [Spring MVC Quickstart Maven Archetype](https://github.com/kolorobot/spring-mvc-quickstart-archetype)：该项目是Spring MVC Web应用程序的Maven原型。
 * [Spring Boot Starter](https://github.com/ericus20/spring-boot-starter)：一个高度固执且完整的Spring Boot生产就绪项目的Starter。
