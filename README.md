@@ -2102,29 +2102,29 @@
 
 ## Kafka生态
 
-* [AKHQ](https://github.com/tchiotludo/akhq)：用于Kafka的Kafka GUI，用于管理主题、主题数据、消费者组、模式注册表、连接等等。
-* [KnowStreaming](https://github.com/didi/KnowStreaming)：滴滴开源的Kafka运维管控平台。
-* [Kafka-UI](https://github.com/provectus/kafka-ui)：用于Kafka管理的开源Web UI。
-* [EFAK](https://github.com/smartloli/EFAK)：一个简单且高性能的监控系统，用于对kafka集群进行全面的监控和管理。
-* [Cruise-control](https://github.com/linkedin/cruise-control)：Cruise-control是同类中第一个完全自动化Kafka集群动态工作负载重新平衡和自我修复的工具，它通过简化Kafka集群的操作为Kafka用户提供了巨大的价值。
-* [KCenter](https://github.com/xaecbd/KCenter)：用于kafka集群管理维护、生产者/消费者监控、生态组件使用的统一平台。
+* [CMAK](https://github.com/yahoo/CMAK)：CMAK是用于管理Apache Kafka集群的工具，由Yahoo开源。
+* [Kafka-UI](https://github.com/provectus/kafka-ui)：用于管理Apache Kafka集群的多功能、快速且轻量级的Web UI。
+* [AKHQ](https://github.com/tchiotludo/akhq)：用于Apache Kafka的Kafka GUI，可以管理主题、主题数据、消费者组、模式注册表、连接等等。
+* [KnowStreaming](https://github.com/didi/KnowStreaming)：Know Streaming是一套云原生的Kafka管控平台，脱胎于众多互联网内部多年的Kafka运营实践经验，专注于Kafka运维管控、监控告警、资源治理、多活容灾等核心场景，由滴滴开源。
+* [EFAK](https://github.com/smartloli/EFAK)：EAFK是一个开源的Kafka集群管理和监控工具，旨在帮助用户更好地管理和监控其Kafka集群。
+* [Cruise-control](https://github.com/linkedin/cruise-control)：Cruise Control是一款帮助大规模运行Apache Kafka集群的产品，由LinkedIn开源。
+* [KCenter](https://github.com/xaecbd/KCenter)：KCenter是一个统一的Apache Kafka集群管理维护、生产者/消费者监控、生态组件使用的一站式平台。
 * [Kstreamplify](https://github.com/michelin/kstreamplify)：Kstreamplify是一个Java库，使你能够快速创建基于Kafka Stream的应用程序，并提供许多附加高级功能，由米其林开源。
-* [Kafka-Sprout](https://github.com/oslabs-beta/Kafka-Sprout)：用于Kafka集群管理的Web GUI。
-* [Xinfra-Monitor](https://github.com/linkedin/kafka-monitor)：Xinfra Monitor通过使用端到端管道生成合成工作负载来监控Kafka集群的可用性。
+* [Kafka-Sprout](https://github.com/oslabs-beta/Kafka-Sprout)：Kafka Sprout是一个Web GUI，可以帮助你在本地计算机上快速启动Zookeeper和Kafka服务器，无需任何代码配置。
+* [Xinfra-Monitor](https://github.com/linkedin/kafka-monitor)：Xinfra Monitor是一个在真实集群中实现和执行长时间运行的kafka系统测试的框架，由LinkedIn开源。
 * [Confluent Schema Registry](https://github.com/confluentinc/schema-registry)：Kafka的Confluence模式注册中心。
-* [Kafdrop](https://github.com/HomeAdvisor/Kafdrop)：用于监控Kafka集群的UI工具。
-* [Mirus](https://github.com/salesforce/mirus)：基于Kafka Connect的Kafka集群之间分布式、大容量复制的工具，由Salesforce开源。
-* [Kafdrop](https://github.com/obsidiandynamics/kafdrop)：用于查看Kafka主题和浏览消费者组的Web UI。
-* [Jikkou](https://github.com/streamthoughts/jikkou)：一个命令行工具，可帮助你自动管理Kafka集群上的配置。
+* [Kafdrop](https://github.com/HomeAdvisor/Kafdrop)：Kafdrop是一个用于监控Apache Kafka集群的UI。
+* [Mirus](https://github.com/salesforce/mirus)：Mirus是Apache Kafka的跨数据中心数据复制工具，由Salesforce开源。
+* [Kafdrop](https://github.com/obsidiandynamics/kafdrop)：Kafdrop是一个用于查看Kafka主题和浏览消费者组的Web UI。
+* [Jikkou](https://github.com/streamthoughts/jikkou)：Jikkou是一款开源工具，旨在提供一种高效且简单的方法来管理、自动化和配置事件流平台上的资源。
 * [Strimzi](https://github.com/strimzi/strimzi-kafka-operator)：Strimzi提供了一种在Kubernetes或OpenShift上以各种部署配置运行Kafka集群的方法，由RedHat开源。
-* [Julie](https://github.com/kafka-ops/julie)：帮助你在Kafka部署中构建自动化和gitop的解决方案。
-* [Decaton](https://github.com/line/decaton)：Kafka上的高吞吐量异步任务处理，由Line开源。
+* [Julie](https://github.com/kafka-ops/julie)：JulieOps帮助你自动化管理Apache Kafka中的事物，从主题、配置到元数据，以及访问控制、模式。
+* [Decaton](https://github.com/line/decaton)：Decaton是一个构建在Apache Kafka之上的流式任务处理框架，由Line开源。
 * [Kafka REST Proxy](https://github.com/confluentinc/kafka-rest)：Kafka REST Proxy为Kafka集群提供RESTful接口，它可以轻松地生成和消费数据、查看集群状态以及执行管理操作，而无需使用本机Kafka协议或客户端，由Confluent开源。
 * [Reactor Kafka](https://github.com/reactor/reactor-kafka)：Reactor响应式Kafka驱动程序。
-* [DoctorK](https://github.com/pinterest/DoctorK)：用于Kafka集群自动修复和工作负载平衡的服务，由Pinterest开源。
+* [DoctorK](https://github.com/pinterest/DoctorK)：DoctorK是一个用于Kafka集群自动修复和工作负载平衡的服务，由Pinterest开源。
 * [Kroxylicious](https://github.com/kroxylicious/kroxylicious)：Kroxylicious是Kafka协议代理，可解决加密、多租户和模式验证等用例。
-* [CMAK](https://github.com/yahoo/CMAK)：CMAK是管理Apache Kafka集群的工具，由Yahoo开源。
-* [Zilla](https://github.com/aklivity/zilla)：Zilla是一个多协议、边缘和服务代理。
+* [Zilla](https://github.com/aklivity/zilla)：Zilla将Apache Kafka抽象为Web应用程序、物联网客户端和微服务。
 * [Chaperone](https://github.com/uber-archive/chaperone)：Chaperone作为Kafka审计系统，监控数据流的完整性和延迟，由Uber开源。
 * [Azkarra Streams](https://github.com/streamthoughts/azkarra-streams)：Azkarra Streams是一个轻量级Java框架，可以轻松开发和操作Kafka Streams应用程序。
 * [Kafka-Helmsman](https://github.com/teslamotors/kafka-helmsman)：Kafka-Helmsman是一个专注于自动化Kafka部署的工具，由特斯拉开源。
