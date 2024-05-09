@@ -921,12 +921,13 @@
 * [Thrift-Mock](https://github.com/didi/thrift-mock)：用于Mock Thrift服务的轻量级Java单元测试库，由滴滴开源。
 * [Spring Data Mock](https://github.com/mmnaseri/spring-data-mock)：Spring Data Repository的Mock工具。
 * [ZeroMock](https://github.com/tonivade/zeromock)：零依赖的模拟HTTP Server。
+* [OKHttp Client Mock](https://github.com/gmazzo/okhttp-client-mock)：一个简单的OKHttp客户端Mock，使用可编程请求拦截器。
 
 #### 测试数据生成器
 
 * [Java Faker](https://github.com/DiUS/java-faker)：该库是Ruby的stympy/faker gem的Java端口，用于生成假数据。
 * [Instancio](https://github.com/instancio/instancio)：Instancio是一个Java库，可以自动为单元测试创建和填充对象。
-* [Junit DataProvider](https://github.com/TNG/junit-dataprovider)：类似TestNG的JUnit数据提供者运行程序，具有许多附加功能。
+* [JUnit DataProvider](https://github.com/TNG/junit-dataprovider)：类似TestNG的JUnit数据提供者运行程序，具有许多附加功能。
 * [DataFaker](https://github.com/datafaker-net/datafaker)：Datafaker是一个用于Java和Kotlin生成虚假数据的库。
 * [EasyRandom](https://github.com/j-easy/easy-random)：Easy Random是一个生成随机Java对象的库。
 * [MockNeat](https://github.com/nomemory/mockneat)：Mockneat是一个用Java编写的任意数据生成器开源库。
@@ -1899,6 +1900,8 @@
 * [Apache Eagle](https://github.com/apache/eagle)：Apache Eagle是一种开源分析解决方案，用于在大数据平台上立即识别安全和性能问题，由eBay开源。
 * [TrainDB](https://github.com/traindb-project/traindb)：TrainDB是一个基于ML的近似查询处理引擎，旨在在几秒钟内回答耗时的分析查询，由延世大学、光云大学、ETRI、RealTimeTech、BI Matrix开源。
 * [Apache Gluten](https://github.com/apache/incubator-gluten)：Gluten是一个中间层，负责将基于JVM的SQL引擎的执行卸载到本机引擎，由Intel和Kyligence开源。
+* [Maha](https://github.com/yahoo/maha)：快速报告API开发的框架，开箱即用地支持Druid的高基数维度查找，由Yahoo开源。
+* [Apache DataFusion Comet](https://github.com/apache/datafusion-comet)：Apache DataFusion Comet是一个Apache Spark插件，它使用Apache DataFusion作为本机运行时，以实现查询效率和查询运行时方面的改进，由Apple开源。
 
 ## 数据可视化
 
@@ -2008,25 +2011,25 @@
 
 ## 数据库中间件
 
-* [DataX](https://github.com/alibaba/DataX)：阿里开源的一个异构数据源离线同步工具。
-* [Databus](https://github.com/linkedin/databus)：与源无关的分布式变更数据捕获系统，由LinkedIn开发。
+* [DataX](https://github.com/alibaba/DataX)：DataX是阿里云DataWorks数据集成的开源版本，在阿里巴巴集团内被广泛使用的离线数据同步工具/平台。
+* [Databus](https://github.com/linkedin/databus)：Databus是一个与源无关的分布式变更数据捕获系统，它是LinkedIn数据处理管道的组成部分。
 * [Canal](https://github.com/alibaba/canal)：阿里开发的基于数据库增量日志解析，提供增量数据订阅&消费的中间件。
 * [Otter](https://github.com/alibaba/otter)：阿里开源的一个分布式数据库同步系统，尤其是在跨机房数据库同步方面，有很强大的功能。
-* [DRC](https://github.com/ctripcorp/drc)：携程框架架构研发部数据中心组推出的用于数据双向或多向复制的数据库中间件。
+* [DRC](https://github.com/ctripcorp/drc)：DRC(Data Replicate Center)是携程框架架构研发部数据中心组推出的用于数据双向或多向复制的数据库中间件。
 * [Puma](https://github.com/dianping/puma)：获取数据库的变更并通过消息方式发布，并且可以实现数据库同步，由大众点评开源。
 * [Apache ShardingSphere](https://github.com/apache/shardingsphere)：Apache ShardingSphere是一种分布式SQL事务和查询引擎，允许在任何数据库上进行数据分片、扩展、加密等，由当当网开源。
-* [Cobar](https://github.com/alibaba/cobar)：分库分表的代理，兼容MySQL协议和MySQL SQL语法，底层存储仅支持MySQL，支持前台业务更简单、稳定、高效、安全，由阿里开源。
-* [TSharding](https://github.com/baihui212/tsharding)：蘑菇街交易平台使用的简单分片组件。
-* [DBLE](https://github.com/actiontech/dble)：由爱可生开发的一种高扩展性的MySQL分片中间件。
+* [Cobar](https://github.com/alibaba/cobar)：Cobar是分库分表的代理，兼容MySQL协议和MySQL SQL语法，底层存储仅支持MySQL，支持前台业务更简单、稳定、高效、安全，由阿里开源。
+* [TSharding](https://github.com/baihui212/tsharding)：TSharding是蘑菇街交易平台使用的简单分片组件。
+* [DBLE](https://github.com/actiontech/dble)：DBLE是由爱可生开发的一种高扩展性的MySQL分片中间件。
 * [Gizzard](https://github.com/twitter-archive/gizzard)：用于创建最终一致的分布式数据存储的灵活分片框架，由Twitter开源。
-* [Mycat2](https://github.com/MyCATApache/Mycat2)：支持分布式SQL查询、兼容MySQL通信协议，以Java生态支持多种后端数据库，通过数据分片提高数据查询处理能力。
+* [Mycat2](https://github.com/MyCATApache/Mycat2)：Mycat2是Mycat社区开发的一款分布式关系型数据库(中间件)。
 * [Heisenberg](https://github.com/brucexx/heisenberg)：Heisenberg是百度开源的一款基于MySQL协议之上的分库分表中间件，支持各种灵活的分库分表规则。
-* [Ctrip DAL](https://github.com/ctripcorp/dal)：携程框架部开发的数据库访问框架，支持代码生成和水平扩展。
+* [Ctrip DAL](https://github.com/ctripcorp/dal)：Ctrip DAL是携程框架部开发的数据库访问框架，支持代码生成和水平扩展。
 * [Oceanus](https://github.com/wuba/Oceanus)：58同城数据库中间件，功能简单、易于上手。
 * [MySQL Binary Log Connector](https://github.com/shyiko/mysql-binlog-connector-java)：MySQL二进制日志连接器。
-* [TDDL](https://github.com/alibaba/tb_tddl)：一个分布式数据库中间件，主要是为了解决分布式数据库产生的相关问题，由阿里开源。
-* [Elasticsearch JDBC](https://github.com/jprante/elasticsearch-jdbc)：允许从JDBC源获取数据以索引到Elasticsearch中。
-* [Zebra](https://github.com/Meituan-Dianping/Zebra)：一个基于JDBC API协议上开发出的高可用、高性能的数据库访问层解决方案，是美团点评内部使用的数据库访问层中间件。
+* [TDDL](https://github.com/alibaba/tb_tddl)：TDDL是一个分布式数据库中间件，主要是为了解决分布式数据库产生的相关问题，由阿里开源。
+* [Elasticsearch JDBC](https://github.com/jprante/elasticsearch-jdbc)：JDBC导入器允许从JDBC源获取数据以索引到Elasticsearch中。
+* [Zebra](https://github.com/Meituan-Dianping/Zebra)：Zebra是一个基于JDBC API协议上开发出的高可用、高性能的数据库访问层解决方案，是美团点评内部使用的数据库访问层中间件。
 * [ToroDB Stampede](https://github.com/torodb/stampede)：Stampede可将NoSQL数据从MongoDB副本集转换为PostgreSQL中的关系数据库。
 * [Sharding Method](https://github.com/QNJR-GROUP/sharding-method)：分表分库的新思路-服务层Sharding框架，全SQL、全数据库兼容，由齐牛金融开源。
 * [Redis Replicator](https://github.com/leonchen83/redis-replicator)：Redis复制工具，支持同步、psync、psync2，可以解析RDB、AOF、混合RDB和AOF文件。
@@ -2052,6 +2055,7 @@
 * [Compass](https://github.com/sogou-biztech/compass)：Compass是搜狗商业平台研发部开发的一套轻量级的分布式数据库访问框架。
 * [Open Replicator](https://github.com/whitesock/open-replicator)：Open Replicator是一个用Java编写的高性能MySQL binlog解析器。
 * [DataSQRL](https://github.com/DataSQRL/sqrl)：DataSQRL将SQL编译为优化的数据管道和数据微服务，从而消除了集成和调整具有多个步骤或组件的数据架构的手动工作。
+* [SQLCommenter](https://github.com/google/sqlcommenter)：SQLCommenter是一套中间件/插件，使你的ORM能够在执行之前扩充SQL语句，并使用包含有关导致其执行的代码的信息的注释，由Google开源。
 
 ## 数据湖框架
 
@@ -2160,6 +2164,7 @@
 * [COMP Superscalar](https://github.com/bsc-wdc/compss)：COMP Superscalar(COMPS)是一种编程模型，旨在简化分布式基础设施(例如集群、网格和云)的应用程序开发，由巴塞罗那超级计算中心开源。
 * [UNICORE](https://www.unicore.eu/)：UNICORE提供了一个可立即运行的系统，使分布式计算和数据资源能够在内联网和互联网上以无缝且安全的方式可用。
 * [Imhotep](https://github.com/indeedeng/imhotep)：Imhotep是Indeed打造的大型分析平台。
+* [Drasyl](https://github.com/drasyl/drasyl)：Drasyl是一个用于快速开发分布式应用程序的高性能框架，由汉堡大学开源。
 
 ## 分布式锁
 
@@ -5532,6 +5537,7 @@
 * [Alpaca Java](https://github.com/Petersoj/alpaca-java)：这是Alpaca API的Java实现，Alpaca让你可以使用算法进行交易、与应用程序连接并通过免佣金的股票交易API构建服务。
 * [IBC](https://github.com/IbcAlpha/IBC)：IBC可以自动化运行盈透证券交易者工作站和网关的许多方面。
 * [Billy](https://github.com/premium-minds/billy)：Billy是一个应用程序计费库，为应用程序提供创建、管理和存储计费工件(例如发票和贷方票据)的能力。
+* [Java_NFe](https://github.com/Samuel-Oliveira/Java_NFe)：用于使用NFe/NFCe WebService的Java库。
 
 ## 短信
 
@@ -6227,6 +6233,7 @@
 * [Java-Debug-Tool](https://github.com/pandening/Java-debug-tool)：Java-Debug-Tool是一个动态调试工具，它提供了一些调试命令来在运行时调试你的代码。
 * [inspectIT Ocelot](https://github.com/inspectIT/inspectit-ocelot)：inspectIT Ocelot是一个零配置Java代理，用于基于OpenCensus库动态收集应用程序性能、跟踪和行为数据。
 * [LinkAgent](https://github.com/shulieTech/LinkAgent)：LinkAgent是一个基于Java的开源代理，旨在通过JVM字节码收集Java应用程序的数据和控制功能，而无需修改应用程序代码。
+* [Joylive Agent](https://github.com/jd-opensource/joylive-agent)：用于多活(单元)场景下流量治理的Java字节码增强框架，由京东开源。
 
 ## 类加载
 
@@ -6307,6 +6314,7 @@
 * [Jikes](https://jikes.sourceforge.net/)：Jikes是一个编译器，它将Java语言规范中定义的Java源文件转换为Java虚拟机规范中定义的字节码指令集和二进制格式，由IBM开源。
 * [Qbicc](https://github.com/qbicc/qbicc)：Qbicc是一个实验性的Java原生镜像编译器。
 * [Java Comment Preprocessor](https://github.com/raydac/java-comment-preprocessor)：具有类似C注释格式的计算机语言预处理器。
+* [Apache Royale Compiler](https://github.com/apache/royale-compiler)：Apache Royale编译器将ActionScript 3.0和MXML代码编译为SWF或JavaScript。
 
 ## 语言服务器
 
